@@ -1,0 +1,24 @@
+1.(PRINT DIAGNOL ALPHABET)
+
+class HelloWorld {
+    public static void main(String[] args) {
+        String a = "HARISH";
+        int b=a.length();        
+        for(int i =0;i<b;i++){
+            for(int j = 0;j<b;j++){
+                System.out.print(" ");
+            }
+            System.out.println(a.charAt(i));
+        }
+    }
+}
+---------------------------------------------------------
+(OP)
+H
+ A
+  R
+   I
+    S
+     H
+----------------------------------------------------------
+2.STAR PRINT
